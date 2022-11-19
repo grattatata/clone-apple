@@ -72,3 +72,9 @@ loca .local-nav-links a {
   font-size: 2.5re;
   background: rgba(0, 0, 0, 0.3);
 }
+
+.main-message p {
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+}
