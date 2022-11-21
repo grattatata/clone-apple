@@ -25,6 +25,7 @@ a {
   height: 44px;
   padding: 0 1rem;
 }
+
 .local-nav {
   height: 52px;
   border-bottom: 1px solid #ddd;
@@ -50,7 +51,7 @@ a {
   font-weight: bold;
 }
 
-loca .local-nav-links a {
+.local-nav-links a {
   font-size: 0.8rem;
 }
 
@@ -70,7 +71,6 @@ loca .local-nav-links a {
   margin: 5px 0;
   height: 3em;
   font-size: 2.5re;
-  background: rgba(0, 0, 0, 0.3);
 }
 
 .main-message p {
