@@ -70,7 +70,7 @@
       currentScene--;
     }
 
-    console.log(currentScene);
+    document.body.setAttribute("id", `show-scene-${currentScene}`);
   }
 
   window.addEventListener("resize", setLayout);
@@ -79,5 +79,9 @@
 
     scrollLoop();
   });
-  setLayout();
+  // window.addEventListener(`DOMContentLoaded`, setLayout);
+  window.addEventListener(`load`, setLayout);
+  window.addEventListener(`resize`, setLayout);
+
+  // setLayout();
 })();
